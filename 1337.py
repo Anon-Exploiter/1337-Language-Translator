@@ -4,7 +4,7 @@ import os, sys
 from string import maketrans
 
 if sys.platform == "linux" or sys.platform == "linux2":
-    clear = "clear"
+	clear = "clear"
 else:
 	clear="cls"
 
